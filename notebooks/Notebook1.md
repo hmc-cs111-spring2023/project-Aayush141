@@ -11,7 +11,7 @@ change something about the design, implementation, or evaluation as a result?
 
 I received feedback and ideas about some of the new operators I could introduce, and maybe even an "if" statement structure. I had thought about a lot of these before, but it was still helpful to talk about it and explain it to my critique partners. Just talking and explaining helps clarify, and maybe even get new ideas from both sides. 
 
-Other people's DSL implementation ideas were also helpful. On Monday we spoke about using excel spreedsheets, APIs, regex, and some other interesting implementation ideas which while I don't think I be using just yet - but helped me branch out my line of thinking.  And some of these ideas may be important in the future, if and when I run into issues and barriers with my own implementation.
+Other people's DSL implementation ideas were also helpful. On Monday we spoke about using excel spreedsheets, APIs, regex, and some other interesting implementation ideas which, while I don't think I will be using just yet - but it helped me branch out my line of thinking. And some of these ideas may be important in the future, if and when I run into issues and barriers with my own implementation.
 
 Was it helpful in addressing the most pressing issues in your project?
 
