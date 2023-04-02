@@ -11,9 +11,13 @@ change something about the design, implementation, or evaluation as a result?
 
 I received feedback and ideas about some of the new operators I could introduce, and maybe even an "if" statement structure. I had thought about a lot of these before, but it was still helpful to talk about it and explain it to my critique partners. Just talking and explaining helps clarify, and maybe even get new ideas from both sides. 
 
+Other people's DSL implementation ideas were also helpful. On Monday we spoke about using excel spreedsheets, APIs, regex, and some other interesting implementation ideas which while I don't think I be using just yet - but helped me branch out my line of thinking.  And some of these ideas may be important in the future, if and when I run into issues and barriers with my own implementation.
+
 Was it helpful in addressing the most pressing issues in your project?
 
-I still have not run into pressing issues, since it is really only the first week of the project - but I look forward to future critique sessions.
+I still have not run into pressing issues, since it is really only the first week of the project - but I look forward to future critique sessions. 
+
+A couple ideas of mine are still abstract - and I was hoping to create a live list of operators and features I would like to add. This is would help grounding the project, and also help future critique sessions!
 
 ## Description
 
@@ -33,7 +37,7 @@ Picking a host language:
 
 After a table analysis attached above, Scala came out the winner. 
 
-Internal DSL: I chose the internal DSL route. 
+Internal DSL: I chose the internal DSL route.
 
 Domain Expert:
 I also spoke to my Linguistics professor about the DSL class, and I mentioned something about Regex which she was thoroughly confused by. So I thought about that. I think regex implementations can be really important while working with strings, but it is really unintuitive. Aside from the features I already intended on adding, I am also thinking about adding some regex features in the language that are more "readable", usable and better designed. 
@@ -69,9 +73,12 @@ What are some forms of String manupulation that you would like to see? I have so
 **How much time did you spend on the project this week? If you're working in a
 team, how did you share the work?**
 
-4 hours experimenting in Scastie
+4 hours experimenting in Scastie.
+
 2 hours on picking a DSL and speaking to linguistics people I know, including my prof. 
+
 90 minutes on filling on this notebook entry, and bringing all my material together. 
+
 75 minutes on critiques (in class, and outside). 
 
 
