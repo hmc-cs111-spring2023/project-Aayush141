@@ -86,3 +86,18 @@ team, how did you share the work?**
 project, how did this week go?**
 
 Pretty good! I got all the "getting off the ground" work done, including a skeleton code and scala experimentation in Scastie. I wasn't able to delve into some of the design aspects and decisions, but I will be doing that next week. 
+
+-------------------
+
+In cast the image did not attach, here it is in text form: 
+
+ME
+Well versed in the language: C++ and Java. I just have the most experience with those.
+Well versed with DSL implementation techniques: Scala. Since this course was taught largely through Scala, and this course is my only exposure to DSLs - I probably know the most about it's DSL related features. 
+
+MY PROJECT
+Language that has the features that match closest to my requirements: Scala. Since I am not working with graphs or a graphical user interface or image outputs - I eliminated languages like R, G or Pic that had the best features to outputing, say, a graph. The DSL I intend on building NEEDS implicit conversion and multiple parameter lists. Scala has these, and I am familiar with them.
+
+Winner: SCALA.
+I am still unfamiliar with some basic scala syntax. Like, I still need to look up array indexing and things like that when I am coding in Scala - because I do not know Scala as well as Java or C++. But the pros for Scala
+outweigh the cons. I think I can make it work!
