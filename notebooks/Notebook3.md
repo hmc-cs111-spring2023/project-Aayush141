@@ -28,16 +28,17 @@ Fluency, and allowing method chaining. For operators like "-", I ensured that th
 
 *Chapter Two:*
 
-I also added in "extension(s :String)" to, essentially, allow easy explicit conversion from String to either of the new types. 
-
+I also added in "extension(s :String)" to, essentially, allow easy conversion from String to either of the new types. To denote which type you want, explicitly. (Without having to do the whole "unorderedString("hello world");")
 
 var v1 = "hello world" u   <-- v1 will be an unorderedString. 
 
-var v2 = "hello world"./ <---- v2 will be a PhonemicString.
+var v2 = "hello world"/ <---- v2 will be a PhonemicString.
 
-So, you still have all the implicit conversions to get in and out of types, and so - if you use any of the new operators on string, it will automatically switch into the correct type and perform the operation. But, if you use an operator that is in both String and unorderedString, like "+", you can chose which route you want to go by using "u". 
+So, you still have all the implicit conversions to get in and out of types, and so - if you use any of the UnorderedString operators on string, it will automatically switch into the correct type and perform the operation. But, if you use an operator that is in both String and unorderedString, like "+", you can chose which route you want to go by using "u". I have also added an implicit conversion to String, so you can use String operators on UnorderedString and it will pop into String, do the operation, and pop back into UOString.
 
-u for unordered string is pretty straighfoward. / for phString is pretty cool because linguists already use / to denote an end of Phoneme and by putting "/" at the end, you not only allow linguists to denote a phoneme ending as they usually would, but it also calls the function to turn it into a phoneme. The function call itself is disguised as a design feature.  
+On the design decision,
+
+"u" for unordered string is pretty straighfoward. "/" for phString is pretty cool because linguists already use / to denote an end of Phoneme and by putting "/" at the end, you not only allow linguists to denote a phoneme ending as they usually would, but it also calls the function to turn it into a phoneme. The function call itself is disguised as a design feature.  
 
 
 *Chapter Three*
