@@ -85,3 +85,5 @@ Things went slightly differently this week versus my expectations. But, I am sti
 But, despite this - I still made a lot of progress. This progress was just different from what I had expected. I added in more fluency, extended String, created a nice/big loop structure, and made a lot of design decisions that I intend to further add in.
 
 I also have some new operation and function ideas that I have for these two types, that I will be putting in.
+
+For next week, I also want to add in documentation for the DSL, and fill up the "read me".
