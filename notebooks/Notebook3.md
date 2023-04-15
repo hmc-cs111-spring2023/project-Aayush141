@@ -9,6 +9,8 @@ Did it help you make a design decision? Was it helpful in addressing the most pr
 issues in your project? How will you incorporate the feedback into your work? Will you
 change something about the design, implementation, or evaluation as a result?
 
+My partner suggested I add in some error handling for the new functions, and I agreed with that critique. However, I was more caught up in the design this week. So I will be adding in error handing next week. Some functions like "-" especially suffer from a lack of "what to do under bad conditions". For instance, if you subtract "abc" from "ab", the program will not know what to do since "abc" is bigger. I will be working to fix this, and issues like these. 
+
 ## Description
 
 **TODO:** Fill in this part with information about your work this week:
