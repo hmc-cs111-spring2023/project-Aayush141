@@ -20,7 +20,13 @@ design process.
 
 I made some pretty big design changes.
 
+
+*Chapter One:*
+
 Fluency, and allowing method chaining. For operators like "-", I ensured that they took in AND returned the unorderString type. By doing so, you can chain methods and you don't have to worry about it popping and out of uoString. 
+
+
+*Chapter Two:*
 
 I also added in "extension(s :String)" to, essentially, allow easy explicit conversion from String to either of the new types. 
 
@@ -34,6 +40,7 @@ So, you still have all the implicit conversions to get in and out of types, and 
 u for unordered string is pretty straighfoward. / for phString is pretty cool because linguists already use / to denote an end of Phoneme and by putting "/" at the end, you not only allow linguists to denote a phoneme ending as they usually would, but it also calls the function to turn it into a phoneme. The function call itself is disguised as a design feature.  
 
 
+*Chapter Three*
 
 A major shift was with the loop structures. Scala has "for(char <- String)" type loops already, and I wanted to extend these to the new types, and expand these to have more functionality to work with strings. 
 
@@ -56,9 +63,12 @@ you?**
 team, how did you share the work?**
 
 1 hour - planning, ideating, talking.
+
 6 hours - coding.
-1 hour - critiquing (inside and outside class)
-2 hours - notebook.
+
+1 hour - critiquing (inside and outside class).
+
+2 hours - notebook entry.
 
 **Compared to what you wrote in your contract about what you want to get out of this
 project, how did this week go?**
