@@ -18,6 +18,29 @@ exciting milestones, preliminary results, etc. Feel free to include images
 code, and any other resources that you think will help clearly convey your
 design process.
 
+It looks and feel like a DSL! With a design centered around linguistic operations, and ease of use. 
+
+Here is what happened:
+
+I switched out a lot of the Scala syntax with new design features that matched the rest of the feel. 
+
+The if-statement is function with two parameter lists in Scala. Instead of a function with two parameter lists, the implementation in the DSL is a function that is an extension of boolean and has one parameter.
+
+The loop matches this form of "operator only" design. 
+
+
+The print statement syntax has been swapped out too. 
+
+----
+
+Beyond these changes, I also added 
+
+I also added some new extension functions to work with the new syntax. 
+
+---
+
+Finally, I also wasted more time than I should have on coming up with a name💀 I am really happy with the final name though. 
+
 ## Questions
 
 **What is the most pressing issue for your project? What design decision do
@@ -29,6 +52,13 @@ you?**
 
 **How much time did you spend on the project this week? If you're working in a
 team, how did you share the work?**
+
+2 hours - ideating, talking, planning, and more./
+5 hours coding/
+1 hour - coming up with a name for the language👀/
+2 hours - notebook/
+45 minutes - critique
+
 
 **Compared to what you wrote in your contract about what you want to get out of this
 project, how did this week go?**
