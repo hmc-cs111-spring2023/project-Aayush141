@@ -53,7 +53,9 @@ Essentially, the linguist can do things like Input/Output - without having to kn
 The loop matches this form of "variable first, single parameter" design:
 
 10 times {
+
   body
+  
 }
 
 (It is essentially "10.times(body)" with an extension (i: Int). The user is expected to use the above syntax though)
