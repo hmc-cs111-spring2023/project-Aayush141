@@ -30,7 +30,7 @@ Here is what happened:
 
 I switched out a lot of the Scala syntax with new design features that matched the rest of the "operator" feel. 
 
-The if-statement is basically function with two parameter lists in Scala. Instead of a function with two parameter lists, the implementation in the DSL is a function that is an extension of boolean and has one parameter. It looks like an operator, because it is. It is an entailment operator.
+The if-statement is basically function with two parameter lists in Scala. Instead of a function with two parameter lists, the implementation in the DSL is a function that is an extension of boolean and has one parameter. It looks like an operator, because it is. It is an implication operator.
 
 BOOLEAN -> BODY
 
@@ -39,7 +39,7 @@ var v1 = "hello"
 
 //The body only runs if the boolean is true
 
-The entailment operator "->" is already used by linguists for, well, entailment. if A then B.
+The implication operator "->" is already used by linguists for, well, implication. if A then B.
 
 
 The print statement syntax has been swapped out too. Again, in favor of operators and to match with the rest of the design.
