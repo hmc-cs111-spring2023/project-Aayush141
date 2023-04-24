@@ -62,6 +62,8 @@ The loop matches this form of "variable first, single parameter" design:
 
 The for_loop from last week is still there, and provides more functionality. But, this is a simpler syntax and does most things a linguist would want. 
 
+Internally, "10 times" and "->" code still uses the "for_loop" and "if" with multiple parameter lists, but the user does not see this. For them, it is a simple operation with the details abstracted away.
+
 ----
 
 I also added some new extension functions to work with the new syntax. For instance, "(Unit) ln" will print a leave line. And "n lines" will print n leave lines. This is because the ↓ operator, by default, does not leave a line. But you can just tack on a "ln" or "n lines).
@@ -79,7 +81,7 @@ Explanation:
 - C, C++, C#, etc. There is a host of languages with C in them. For linguistics, "c" represents the "Palatal Plosive". 
 So, "Palatal Plosive Plus Plus" essentially translates to "C++".
 
-- Palatal Plosive Plus Plus is an alliteration. It is not just an alliteration, it is a second order alliteration. The first TWO consonents of each word is the same - "PL PL PL PL". Not only is it a second level alliteration, the first two letters "PL" stand for "Programming Language". Which is what this is! "Programming-Language Programming-Language Programming-Language Programming-Language". 
+- Palatal Plosive Plus Plus is an alliteration. It is not just an alliteration, it is a second order alliteration. The first TWO consonants of each word is the same - "PL PL PL PL". Not only is it a second level alliteration, the first two letters "PL" stand for "Programming Language". Which is what this is! "Programming-Language Programming-Language Programming-Language Programming-Language". 
 
  
 ## Questions
