@@ -9,6 +9,10 @@ Did it help you make a design decision? Was it helpful in addressing the most pr
 issues in your project? How will you incorporate the feedback into your work? Will you
 change something about the design, implementation, or evaluation as a result?
 
+Problem: The language still felt like Scala, the host language.
+Suggestion: Write code in the DSL, and notice things that bother you - and you would like to appear different. That would benifit from being different. Create a cohesive design for the overall language. 
+How it helped: I did just that this week! You can barely tell it is Scala anymore, and the design closely matches with linguistic operations. 
+
 ## Description
 
 **TODO:** Fill in this part with information about your work this week:
@@ -24,41 +28,84 @@ Here is what happened:
 
 I switched out a lot of the Scala syntax with new design features that matched the rest of the feel. 
 
-The if-statement is function with two parameter lists in Scala. Instead of a function with two parameter lists, the implementation in the DSL is a function that is an extension of boolean and has one parameter.
+The if-statement is basically function with two parameter lists in Scala. Instead of a function with two parameter lists, the implementation in the DSL is a function that is an extension of boolean and has one parameter.
+
+[BOOLEAN] -> [BODY]
+
+var v1 = "hello"
+"hello" == v1 -> v1 = "bye"
+
+//The body only runs if the boolean is true
+
+The entailment operator "->" is already used by linguists for, well, entailment. if A then B.
+
+
+The print statement syntax has been swapped out too. Again, in favor of operators and to match with the remainder of the design.
+
+"hello" ↓
+
+//prints "hello". 
+
+Essentially, the linguist can do things like Input/Output - without having to know functions and how println works. The down arrow is just another operation. By having a uniform aesthetic, the linguistic need not know any other programming language as a prereq. They just need to know the operations like "+", "-", "->", "⊆", "/", "~", "↓". And since these match those that linguists already use, it should not be too hard to learn! 
 
 The loop matches this form of "operator only" design. 
 
+10 times {
+  body
+}
 
-The print statement syntax has been swapped out too. 
+(It is essentially "10.times(body)" with an extension (i: Int))
+
+The for_loop from last week is there, and provides more functionality. But, this is a simpler syntax and does most things a linguist would want. 
 
 ----
 
-Beyond these changes, I also added 
+I also added some new extension functions to work with the new syntax. For instance, "(Unit) line" will print a leave line. And "n lines" will print n leave lines. This is because the ↓ operator, by default, does not leave a line. But you can just tack on a "↓ line" or "n lines).
 
-I also added some new extension functions to work with the new syntax. 
+Beyond these changes, I also added error handling. Error messages in case things go wrong.
 
 ---
 
 Finally, I also wasted more time than I should have on coming up with a name💀 I am really happy with the final name though. 
 
+"PP++" is the name. It stands for "Palatal Plosive Plus Plus" 
+
+Explanation:
+
+- C, C++, C#, etc. There is a host of languages with C in them. For linguistics, "c" represents the "Palatal Plosive". 
+So, "Palatal Plosive Plus Plus" essentially translates to "C++".
+
+- Palatal Plosive Plus Plus is an alliteration. It is not just an alliteration, it is a second order alliteration. The first TWO consonents of each word is the same - "PL PL PL PL". Not only is it a second level alliteration, the first two letters "PL" stand for "Programming Language". Which is what this is! "Programming-Language Programming-Language Programming-Language Programming-Language". 
+
+ 
 ## Questions
 
 **What is the most pressing issue for your project? What design decision do
 you need to make, what implementation issue are you trying to solve, or how
 are you evaluating your design and implementation?**
 
+Nothing major, which is good seeing as we are approaching the end. Some minor tweaks, maybe add some more abstractions, organize my files, 
+
 **What questions do you have for your critique partners? How can they best help
 you?**
+
+I feel like my DSL is ready! I was wondering if my critique partners felt anything else was missing.
 
 **How much time did you spend on the project this week? If you're working in a
 team, how did you share the work?**
 
-2 hours - ideating, talking, planning, and more./
-5 hours coding/
-1 hour - coming up with a name for the language👀/
-2 hours - notebook/
+2 hours - ideating, talking, planning, and more.
+
+5 hours - coding
+
+1 hour - coming up with a name for the language👀
+
+2 hours - notebook
+
 45 minutes - critique
 
 
 **Compared to what you wrote in your contract about what you want to get out of this
 project, how did this week go?**
+
+It went great! The language design is appropriate for linguistics, is consistent, and is very different from the host language.
